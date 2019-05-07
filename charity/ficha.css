@@ -1,13 +1,16 @@
-@font-face {
-    font-family: 'Stonecross';
-    src: url('fonts/Stonecross.woff') format('woff2'),
-        url('fonts/Stonecross.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+/*FUENTES*/
+@font-face {font-family: "Asgard";
+ src: url("https://cdn.staticaly.com/gh/vanjiehabbo/warsofrealms/269ff95a/subset-WarsofAsgard.woff") format("woff")}
+@font-face {font-family: "Stonecross";
+ src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/5e9998d5/fonts/Stonecross.woff") format("woff")}
+@font-face {font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
+ unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff}
 
 body {
-  font-family: Stonecross;
+  font-family: "Stonecross";
   font-size:12px;
   color:black;
   text-align:justify;
