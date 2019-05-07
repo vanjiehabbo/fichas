@@ -1,15 +1,25 @@
 body {
   font-family: Verdana;
-  font-size:10px;
-  color:yellow
+  font-size:12px;
+  color:black;
+  text-align:justify;
 }
-#apricum {
-  background:red; 
-  padding:10px;
-}
+
 #portada {
   height:600px;
   width: 500px;
-  background:red;
+  background:blue;
   border:5px solid red;
+  transition: 0.5s
+}
+#fondoportada {
+    display: none;
+
+}
+#portada:hover {
+    background-color:transparent;
+}
+#portada:hover #fondoportada {
+    display: inline;
+    transition: 0.5s;
 }
