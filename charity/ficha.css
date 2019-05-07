@@ -1,56 +1,135 @@
-/*FUENTES*/
-@font-face {font-family: "Asgard";
- src: url("https://cdn.staticaly.com/gh/vanjiehabbo/warsofrealms/269ff95a/subset-WarsofAsgard.woff") format("woff")}
 @font-face {font-family: "Stonecross";
  src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/5e9998d5/fonts/Stonecross.woff") format("woff")}
-@font-face {font-family: 'Roboto';
- font-style: normal;
- font-weight: 400;
- src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');
- unicode-range: u+0100-024f, u+0259, u+1e00-1eff, u+2020, u+20a0-20ab, u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff}
+ @font-face {font-family: "Crewniverse";
+ src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/b97dbca5/fonts/crewniverse.woff") format("woff")}
+ @font-face {font-family: 'Roboto';
+ src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');}
+#principal {
+    font-family: crewniverse;
+    width:600px;
+    background:#CDD4EB;
+    margin:0 auto;
+    padding: 0px;
+    border-spacing: 0px;
+    color:white;
+}
+#lista {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 10px 'crewniverse';
+    padding: 0;
+    margin-bottom: 1em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
 
-body {
-  font-family: "Stonecross";
-  font-size:12px;
-  color:black;
-  text-align:justify;
-}
-::-webkit-scrollbar {-webkit-appearance: none; width: 5px; height: 3px;}
-*::-webkit-scrollbar-track-piece {background-color: #0D0D0D}
-*::-webkit-scrollbar-thumb {background-color: #232323; width: 5px}
-#portada {
-  height:600px;
-  width: 500px;
-  background:blue;
-  border:5px solid red;
-  transition: 0.5s;
-  margin: 0 auto;
-}
-#portada2 {
- text-align:center;
- font-family:"Stonecross";
- text-transform:uppercase;
- font-size:20px;
-}
-#fondoportada {
-    display: none;
 
+#lista li{
+    position: relative;
+    display: block;
+    padding: .3em .2em .2em 2em;
+    *padding: .4em;
+    margin: .5em;
+    margin-bottom:0px;
+    margin-left:-0.5em;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
 }
-#portada:hover {
-    background-color:transparent;
+
+#lista li:hover{
+    background: #eee;
 }
-#portada:hover #fondoportada {
-    display: inline;
-    transition: 0.5s;
+
+#lista li:hover:before{
+    transform: rotate(360deg);  
+    transition:1s;
 }
-#datosic {
-    height:200px;
+
+#lista li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #FDEBA5;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+#principal1 {
+    width:400px;
+}
+#principal2 {
     width:200px;
-    overflow:auto;
-    background: gray;
+    background:#F8FCED;
 }
-#datosic p {
-    line-height: 1;
-    border-bottom: 1px solid black;
-    text-transform: uppercase
+#diamante {
+    text-align:center;
+    color:#C99FB7;
+    -webkit-text-stroke: 1px rgba(255,255,255,1);
+    margin-bottom:-10px;
+}
+#platino dd{background:#FDEBA5;
+    border:3px solid #fff;
+    width:80%;
+    text-align:center;
+    height:200px
+    overflow:none;
+    margin:0 auto;
+    color:gray;
+    font-size:9px;}
+#diamante2{
+    background:#FDEBA5;
+    border:3px solid #fff;
+    width:80%;
+    text-align:center;
+    height:200px
+    overflow:none;
+    margin:0 auto;
+    color:gray;
+    font-size:9px;
+}
+#perla {
+    position:relative;
+    margin:10px;
+    background-image:url(https://i.imgur.com/VTiEELT.png);
+    background-size:cover;
+    border:9px solid #CDD4E9;
+    height:120px;
+    width:120px;
+    left:13%;
+    
+}
+
+#perla2 {
+    font-family: crewniverse;
+    color:white;
+    text-align:center;
+}
+#stats {
+    width:100%;
+    border-spacing: 1em;
+    
+}
+#stats td{
+    background: #F8FCED;
+    padding:8px;
+    font-size:9px;
+    letter-spacing: 1px;
+    border: .3em solid #fff;
+}
+#divisas {
+font-size:10px;
+margin:0 auto;
+border-spacing:10px;
+vertical-align:middle;
 }
