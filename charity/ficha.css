@@ -7,3 +7,9 @@ body {
   background:red; 
   padding:10px;
 }
+#portada {
+  height:600px;
+  width: 500px;
+  background:red;
+  border:5px solid red;
+}
