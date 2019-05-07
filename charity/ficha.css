@@ -1,6 +1,9 @@
 @font-face {
-  font-family: 'Stonecross';
-       url('stonecross.ttf')  format('truetype'), /* Safari, Android, iOS */
+    font-family: 'Stonecross';
+    src: url('fonts/Stonecross.woff') format('woff2'),
+        url('fonts/Stonecross.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
