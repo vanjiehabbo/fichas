@@ -26,6 +26,11 @@ body {
   transition: 0.5s;
   margin: 0 auto;
 }
+#portada2 {
+ text-align:center;
+ font-family:"Asgard";
+ font-size:20px;
+}
 #fondoportada {
     display: none;
 
