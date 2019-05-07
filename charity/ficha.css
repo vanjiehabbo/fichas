@@ -105,9 +105,9 @@
 
 .tabs { /* es el rectángulo contenedor */
 margin: 0 auto;
-min-height: 200px;
+min-height: 400px;
 position: relative;
-width: 368px;
+width: 320px;
 }
 .tab { /* cada una de las pestañas */
 float: left;
