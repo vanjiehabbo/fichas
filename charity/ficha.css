@@ -23,7 +23,16 @@
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
 }
 
-
+#habpas {
+    color:#ff84ca;
+    font-weight:bold;
+}
+#hacfecha{
+color:#282326
+}
+#suma {
+    color:#36C693;
+}
 #lista li{
     position: relative;
     display: block;
@@ -88,6 +97,18 @@
     margin:0 auto;
     color:gray;
     font-size:9px;
+    font-family: crewniverse;
+}
+#platino2 dd{background:#FDEBA5;
+    border:3px solid #fff;
+    width:100%;
+    text-align:justify;
+    height:200px
+    overflow:none;
+    margin:0 auto;
+    color:gray;
+    font-size:9px;
+    padding:5px;
     font-family: crewniverse;
 }
 #diamante2{
