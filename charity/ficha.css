@@ -4,6 +4,77 @@
  src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/b97dbca5/fonts/crewniverse.woff") format("woff")}
  @font-face {font-family: 'Roboto';
  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');}
+#fichita {
+    overflow:hidden;
+    width:600px;
+    height:500px;
+    margin:0 auto;
+}
+#mermaid {
+    font-family:crewniverse;
+    text-transform: uppercase;
+    font-size:40px;
+    text-align:center;
+    padding-right:250px;
+    padding-top:70px;
+    color:#C99FB7;
+    text-shadow: white 4px 0px 0px 
+}
+
+#fichita:hover #mermaid {
+    display:none;
+}
+#portada {
+    width:600px;
+    background:#CDD4EB;
+    height:500px;
+    margin:0 auto;
+    position:relative;
+    z-index:3;
+    transition:all 1.5s ease-in-out;
+}
+#portadanick {
+    z-index: 4;
+    position: absolute;
+    top:8px;
+    left:692px;
+}
+#portadanick2 {
+    border:9px solid #F8FCED;
+    height:405px;
+    width:230px;
+    transition:all 1.5s ease-in-out;
+}
+#fichita:hover #portadanick2 {
+    border:9px solid #CDD4E9;
+    background:#CDD4E9;
+    height:100px;
+    width:100px;    
+    margin-top:21px;
+    margin-left:75px;
+    transform: rotate(45deg);
+    transition:1.5s;
+}
+#imagenportada {
+    height:405px;
+    width:230px;
+    position: fixed;
+}
+#fichita:hover #imagenportada {
+    height:115px;
+    width:115px;
+    top: -7px;
+    left: -7px;
+    object-fit: cover;
+    transform: rotate(-45deg);
+}
+
+#fichita:hover #portada {
+    margin-top:1200px;
+    transition:3s;
+}
+#fichita:hover #principal {
+}
 #principal {
     font-family: crewniverse;
     width:600px;
@@ -12,6 +83,8 @@
     padding: 0px;
     border-spacing: 0px;
     color:white;
+    position:absolute;
+    top:8px;
 }
 #lista {
     counter-reset: li; 
@@ -195,13 +268,12 @@ opacity: 1;
 #perla {
     position:relative;
     margin:10px;
-    background-image:url(https://i.imgur.com/VTiEELT.png);
+    background-color: #CDD4E9;
     background-size:cover;
     border:9px solid #CDD4E9;
     height:120px;
     width:120px;
     left:13%;
-    
 }
 
 #perla2 {
