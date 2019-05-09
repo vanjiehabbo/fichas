@@ -3,7 +3,7 @@
  @font-face {font-family: "Crewniverse";
  src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/b97dbca5/fonts/crewniverse.woff") format("woff")}
  @font-face {font-family: 'Roboto';
- src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2)} format('woff2');}
+ src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');}
 #fichita {
     overflow:hidden;
     width:600px;
