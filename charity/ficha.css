@@ -1,4 +1,4 @@
-@font-face {font-family: "Stonecross";
+ @font-face {font-family: "Stonecross";
  src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/5e9998d5/fonts/Stonecross.woff") format("woff")}
  @font-face {font-family: "Crewniverse";
  src: url("https://cdn.staticaly.com/gh/vanjiehabbo/fichas/b97dbca5/fonts/crewniverse.woff") format("woff")}
@@ -37,7 +37,7 @@
     z-index: 4;
     position: absolute;
     top:8px;
-    left:55.2%;
+    left:54.2%;
 }
 #portadanick2 {
     border:9px solid #F8FCED;
